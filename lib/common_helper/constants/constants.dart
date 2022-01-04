@@ -18,4 +18,7 @@ class Constants {
   FontWeight mediumFontWeight = FontWeight.w500;
   FontWeight extraFontWeight = FontWeight.bold;
   FontWeight maxlFontWeight = FontWeight.w900;
+
+  // Constants Texts
+
 }

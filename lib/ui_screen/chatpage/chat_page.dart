@@ -1,8 +1,8 @@
+import 'package:chat_app/common_helper/constants/api_constants.dart';
+import 'package:chat_app/common_helper/constants/colors.dart';
 import 'package:chat_app/ui_screen/chatpage/chat_utils/chat_message_tile.dart';
 import 'package:chat_app/ui_screen/chatpage/chat_utils/chat_top_bar.dart';
 import 'package:chat_app/ui_screen/chatpage/chat_utils/send_text_widget.dart';
-import 'package:chat_app/common_helper/api_helper.dart';
-import 'package:chat_app/common_helper/colors.dart';
 import 'package:chat_app/controllers/chat_controller.dart';
 import 'package:chat_app/models/chat_message_modal.dart';
 import 'package:flutter/material.dart';
@@ -24,7 +24,7 @@ class _ChatPageState extends State<ChatPage> {
   @override
   void initState() {
     socket = IO.io(
-        ApiHelper.instance.CHAT_SOCKET_API,
+        ApiConstants.instance.CHAT_SOCKET_API,
         IO.OptionBuilder()
             .setTransports(['websocket'])
             .disableAutoConnect()

@@ -1,5 +1,6 @@
-import 'package:chat_app/common_helper/colors.dart';
-import 'package:chat_app/common_helper/constants.dart';
+
+import 'package:chat_app/common_helper/constants/colors.dart';
+import 'package:chat_app/common_helper/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 class ShowUserTile extends StatelessWidget {

@@ -5,4 +5,6 @@ class ConstantsTexts {
 
   String typeAText = "Type a Text";
   String online = "Online";
+  String pleaseEnterYourEmail = "Please Enter Your Email";
+  String enterYourPassword = "Please Enter Password";
 }
